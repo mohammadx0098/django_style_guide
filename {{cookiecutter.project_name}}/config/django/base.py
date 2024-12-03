@@ -12,6 +12,7 @@ DEBUG = True
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['*'])
 
 
+
 # Application definition
 LOCAL_APPS = [
     '{{cookiecutter.project_slug}}.core.apps.CoreConfig',
